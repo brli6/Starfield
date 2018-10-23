@@ -18,8 +18,8 @@ void draw()
     bob[i].show();
     bob[i].move();
   }
-  
 }
+
 class NormalParticle implements Particle
 {
   double myX, myY;
