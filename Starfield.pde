@@ -24,7 +24,8 @@ class NormalParticle implements Particle
 {
   double myX, myY;
   double mySpeed, myAngle;
-  int myColor;
+  //int myColor;
+  NormalParticle()
   {
     myX = 250;
     myY = 250;
@@ -53,6 +54,7 @@ interface Particle
 class OddballParticle implements Particle
 {
   int myX, myY;
+  OddballParticle()
   {
     myX = myY = 0;
   }
